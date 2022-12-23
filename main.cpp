@@ -4,7 +4,7 @@
 *Recursively sort the left subarray (from index 0 to midpoint - 1).
 *Recursively sort the right subarray (from index midpoint to size - 1).
 *Allocate a temporary array of the same size as the original array.
-*Initialize three variables i, j, and k to 0. i and j will be used to iterate through the left and right subarrays,
+*Initialize three variables i, j, and k to 0. i and j will be used to iterate through the left and right sub arrays,
  respectively, and k will be used to iterate through the temporary array.
 *While i is less than the size of the left subarray and j is less than the size of the right subarray:
 *If the element at index i in the left subarray is less than the element at index j in the right subarray,
